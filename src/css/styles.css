@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+    --darkest-green: #182c25;
+    --blue-green: #1e453e;
+    --forest-green: #2c4c3b;
+    --emerald: #306844;
+    --grey: #455b55;
+    --black: #1d2220;
+}
+
+body {
+    background-color: grey;
+}
+
+.logo-container {
+    background-image: linear-gradient(var(--darkest-green), var(--forest-green));
+    width: 100%;
+    height: auto;
+    padding: 35px 0 20px;
+}
+
+h1 {
+    font-family: "Gravitas One", "Times New Roman", Times, serif;
+    color: var(--black);
+    font-size: 32px;
+    background-color: #455b5530;
+    text-align: center;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: space-between;
+    background-color: var(--forest-green);
+}
+
+.navbar-container a {
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    color: var(--black);
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 4% 1%;
+}
