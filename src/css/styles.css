@@ -2,19 +2,22 @@
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 :root {
     --darkest-green: #182c25;
     --blue-green: #1e453e;
     --forest-green: #2c4c3b;
+    --darker-forest: #223b2e;
     --emerald: #306844;
     --grey: #455b55;
-    --black: #1d2220;
+    --black: #151817;
+    --white: #acacac;
 }
 
 body {
-    background-color: grey;
+    background-color: var(--darker-forest);
 }
 
 .logo-container {
@@ -35,9 +38,9 @@ h1 {
 .navbar-container {
     display: flex;
     flex-direction: row;
-    align-items: right;
     justify-content: space-between;
     background-color: var(--forest-green);
+    border-bottom: 2px solid var(--black);
 }
 
 .navbar-container a {
@@ -47,4 +50,42 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     padding: 0 4% 1%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-container {
+    position: relative;
+    width: 90%;
+    height: 150px;
+    border: 2px solid var(--black);
+    margin: 20px;
+}
+
+.heading-container::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/new-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.60;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-size: 40px;
+    color: var(--white);
+    margin-top: 11%;
 }
