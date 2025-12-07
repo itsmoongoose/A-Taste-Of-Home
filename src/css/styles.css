@@ -12,6 +12,7 @@
     --darker-forest: #223b2e;
     --emerald: #306844;
     --grey: #455b55;
+    --dark-grey: #222222;
     --black: #151817;
     --white: #acacac;
 }
@@ -101,12 +102,14 @@ h2 {
 .recipe-card {
     width: 100%;
     height: auto;
-    background-color: var(--black);
+    background-color: var(--dark-grey);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-bottom: 20px;
 }
 
 .recipe-card img {
-    width: 80%;
-    height: 150px;
+    width: 310px;
+    height: 205px;
+    border: 2px solid var(--black);
+    margin: 25px 30px 15px;
 }
