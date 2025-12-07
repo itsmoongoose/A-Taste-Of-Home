@@ -157,3 +157,26 @@ h2 {
 }
 
 /* cookbook.html styles */
+.cookbook-main {
+    margin-top: 20px;
+}
+
+.cookbook-main .recipe-card {
+    padding: 0;
+}
+
+.cookbook-main .recipe-card img {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.single-line-anchor {
+    margin-top: 25px;
+}
+
+.double-line-anchor {
+    margin-top: 10px;
+}
