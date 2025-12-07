@@ -11,14 +11,18 @@
     --forest-green: #2c4c3b;
     --darker-forest: #223b2e;
     --emerald: #306844;
-    --grey: #455b55;
+    --light-grey: #7b7a7a;
     --dark-grey: #222222;
     --black: #151817;
     --white: #acacac;
 }
 
+header {
+    background-color: var(--forest-green);
+}
+
 body {
-    background-color: var(--darker-forest);
+    background-color: var(--light-grey);
 }
 
 /* index.html styles */
@@ -33,7 +37,6 @@ h1 {
     font-family: "Gravitas One", "Times New Roman", Times, serif;
     color: var(--black);
     font-size: 32px;
-    background-color: #455b5530;
     text-align: center;
 }
 
@@ -51,10 +54,15 @@ h1 {
     font-size: 21px;
     font-weight: bold;
     text-decoration: none;
-    padding: 0 4% 1%;
+    padding: 0 5% 1%;
 }
 
-.html-main {
+.navbar-container a:hover {
+    text-decoration: underline;
+    color: var(--black);
+}
+
+.html-main, .cookbook-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
