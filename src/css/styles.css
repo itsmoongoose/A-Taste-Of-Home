@@ -21,6 +21,7 @@ body {
     background-color: var(--darker-forest);
 }
 
+/* index.html styles */
 .logo-container {
     background-image: linear-gradient(var(--darkest-green), var(--forest-green));
     width: 100%;
@@ -53,7 +54,7 @@ h1 {
     padding: 0 4% 1%;
 }
 
-main {
+.html-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,3 +132,5 @@ h2 {
     text-decoration: underline var(--emerald);
     cursor: pointer;
 }
+
+/* cookbook.html styles */
