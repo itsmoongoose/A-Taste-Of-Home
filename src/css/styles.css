@@ -180,3 +180,7 @@ h2 {
 .double-line-anchor {
     margin-top: 10px;
 }
+
+.triple-line-anchor {
+    margin-top: 0;
+}
