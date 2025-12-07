@@ -105,11 +105,29 @@ h2 {
     background-color: var(--dark-grey);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .recipe-card img {
     width: 310px;
     height: 205px;
     border: 2px solid var(--black);
-    margin: 25px 30px 15px;
+    margin: 25px 30px 0;
+}
+
+.recipe-card a {
+    font-family: Quicksand, 'Times New Roman', Times, serif;
+    color: var(--white);
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.recipe-card a:hover {
+    color: var(--emerald);
+    text-decoration: underline var(--emerald);
+    cursor: pointer;
 }
