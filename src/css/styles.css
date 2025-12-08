@@ -203,7 +203,7 @@ h2 {
     margin-top: 18px;
 }
 
-.recipe-container img {
+.recipe-container > img {
     width: 100%;
     height: auto;
     border: 2px solid var(--black);
@@ -225,12 +225,69 @@ h2 {
 .recipe-container h3 {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 27px;
-    margin: 0 0 5px;
+    margin: 0 0 10px;
+}
+
+.instructions-grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-auto-rows: minmax(80px, auto);
+}
+
+.img-step1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.instructions-step1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.img-step2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.instructions-step2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.img-step3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.instructions-step3 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.img-step4 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.instructions-step4 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.img-step5 {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.instructions-step5 {
+    grid-column: 2;
+    grid-row: 5;
 }
 
 .recipe-container h4 {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 20px;
+    padding-top: 15px;
 }
 
 ul {
@@ -241,4 +298,10 @@ ul {
 
 li {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+
+.step-nums {
+    width: 80px;
+    height: auto;
+    border: none;
 }
