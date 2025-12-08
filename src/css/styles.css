@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -34,9 +34,9 @@ body {
 }
 
 h1 {
-    font-family: "Gravitas One", "Times New Roman", Times, serif;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
     color: var(--black);
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -49,12 +49,12 @@ h1 {
 }
 
 .navbar-container a {
-    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
     color: var(--black);
-    font-size: 21px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: normal;
     text-decoration: none;
-    padding: 0 5% 1%;
+    padding: 0 7% 1%;
 }
 
 .navbar-container a:hover {
@@ -94,7 +94,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: var(--white);
     margin-top: 11%;
@@ -112,7 +112,7 @@ h2 {
     width: 100%;
     height: auto;
     background-color: var(--dark-grey);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
@@ -140,7 +140,7 @@ h2 {
 }
 
 .recipe-card a {
-    font-family: Quicksand, 'Times New Roman', Times, serif;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
     color: var(--white);
     font-size: 23px;
     font-weight: bold;
