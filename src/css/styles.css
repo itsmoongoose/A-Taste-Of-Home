@@ -112,7 +112,7 @@ h2 {
     width: 100%;
     height: auto;
     background-color: var(--dark-grey);
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 6px 1px;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
@@ -133,10 +133,10 @@ h2 {
 }
 
 .recipe-card img {
-    width: 310px;
-    height: 205px;
+    width: 95%;
+    height: auto;
     border: 2px solid var(--black);
-    margin: 25px 30px 0;
+    margin: 9px 9px 0;
 }
 
 .recipe-card a {
@@ -183,4 +183,15 @@ h2 {
 
 .triple-line-anchor {
     margin-top: 0;
+}
+
+[href="#logo"] {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    color: var(--black);
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+[href="#logo"]:hover {
+    color: var(--white);
 }
