@@ -219,12 +219,13 @@ h2 {
 .recipe-container h2:nth-child(3) {
     font-weight: normal;
     font-size: 30px;
-    margin-bottom: 17px;
+    margin-bottom: 30px;
 }
 
 .recipe-container h3 {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 27px;
+    text-align: center;
     margin: 0 0 10px;
 }
 
