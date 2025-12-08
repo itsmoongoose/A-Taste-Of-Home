@@ -62,7 +62,7 @@ h1 {
     color: var(--black);
 }
 
-.html-main, .cookbook-main {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,4 +194,51 @@ h2 {
 
 [href="#logo"]:hover {
     color: var(--white);
+}
+
+/* Recipe Pages styles */
+.recipe-container {
+    width: 90%;
+    height: auto;
+    margin-top: 18px;
+}
+
+.recipe-container img {
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--black);
+    margin-bottom: 5px;
+}
+
+.recipe-container h2 {
+    color: var(--black);
+    font-size: 36px;
+    margin: 0;
+}
+
+.recipe-container h2:nth-child(3) {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+.recipe-container h3 {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin: 0 0 5px;
+}
+
+.recipe-container h4 {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    font-size: 19px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
