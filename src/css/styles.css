@@ -290,6 +290,10 @@ h2 {
     padding-top: 15px;
 }
 
+strong {
+    color: var(--forest-green);
+}
+
 ul {
     font-size: 19px;
     margin-left: 25px;
