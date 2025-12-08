@@ -303,5 +303,5 @@ li {
 .step-nums {
     width: 80px;
     height: auto;
-    border: none;
+    margin-top: 18px;
 }
