@@ -285,6 +285,16 @@ h2 {
     grid-row: 5;
 }
 
+.img-step6 {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.instructions-step6 {
+    grid-column: 2;
+    grid-row: 6;
+}
+
 .recipe-container h4 {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 20px;
